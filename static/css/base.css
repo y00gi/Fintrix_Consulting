@@ -1,0 +1,61 @@
+body {
+    background-color: #f6fef8;
+}
+.map-container {
+    position: relative;
+    background-color: #e8f8f1;
+    padding: 50px 0;
+    /* word-wrap: break-word; Ensures text wrapping; */
+}
+.map-container .logo-overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.logo-overlay img {
+    width: 50px;
+    margin-right: 10px;
+}
+.stat-card {
+    font-size: 1.2rem;
+}
+
+.navbar-brand img {
+    height: 40px;
+  }
+
+.navbar-brand .brand-text {
+font-size: 1.5rem;
+font-weight: bold;
+color: #4a4a4a;
+}
+
+.navbar-brand .tagline {
+font-size: 0.9rem;
+color: red;
+}
+
+.navbar-nav .nav-link {
+font-size: 1rem;
+font-weight: 500;
+color: #4a4a4a !important;
+}
+
+.cart-icon {
+font-size: 1.5rem;
+color: #4a4a4a;
+}
+
+@media (max-width: 768px) {
+    .grid-row {
+        height: 60vh;
+        justify-content: center; /* Center align vertically */
+        align-items: center;
+    }
+}
